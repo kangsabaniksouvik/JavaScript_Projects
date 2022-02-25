@@ -10,11 +10,11 @@
 </head>
 <body>
     <div class="container">
-        <h2>Password Generator</h2>
+        <h1>Password Generator</h1>
         <div class="result-container">
           <span id="result"></span>
           <button class="btn" id="clipboard">
-            <i class="far fa-clipboard"></i>
+            <i class="far fa-clipboard" id="copy"></i>
           </button>
         </div>
         <div class="settings">
@@ -23,19 +23,19 @@
             <input type="number" id="length" min="4" max="20" value="20">
           </div>
           <div class="setting">
-            <label>Include uppercase letters</label>
+            <label>Include Uppercase Letters:</label>
             <input type="checkbox" id="uppercase" checked>
           </div>
           <div class="setting">
-            <label>Include lowercase letters</label>
+            <label>Include Lowercase Letters:</label>
             <input type="checkbox" id="lowercase" checked>
           </div>
           <div class="setting">
-            <label>Include numbers</label>
+            <label>Include Numbers:</label>
             <input type="checkbox" id="numbers" checked>
           </div>
           <div class="setting">
-            <label>Include symbols</label>
+            <label>Include Symbols:</label>
             <input type="checkbox" id="symbols" checked>
           </div>
         </div>

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0;
+}
+
+h1 {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 12px 30px rgba(218, 218, 218, 0.9);
+  width: 600px;
+  max-width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 70%;
+}
+
+.result-container #result {
+  word-wrap:break-word;
+  max-width: calc(100% - 40px);
+  overflow-y: scroll;
+  height: 100%;
+}
+
+#result::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.result-container .btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #2ab140;
+}
+
+.btn {
+  border: none;
+  background-color: #2ab140;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.btn-large {
+  display: block;
+  width: 70%;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+#length{
+  border-radius: 10px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.settings{
+    width: 70%;
+}
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
